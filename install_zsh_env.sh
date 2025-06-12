@@ -4,6 +4,7 @@ set -e
 
 echo "🔧 Homebrew パッケージのインストール"
 brew install zsh zinit fzf zoxide bat eza fd ripgrep
+brew install --cask wezterm
 
 echo "💡 FZFセットアップ"
 "$(brew --prefix)/opt/fzf/install" --key-bindings --completion --no-update-rc
