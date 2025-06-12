@@ -13,5 +13,8 @@ echo "✅ zshrcをバックアップしてセットアップ"
 cp ~/.zshrc ~/.zshrc.bak 2>/dev/null || true
 cp ./zshrc ~/.zshrc
 
+echo "🖥️  Wezterm設定ファイルをセットアップ"
+cp ./wezterm.lua ~/.wezterm.lua
+
 echo "🔧 bunのインストール"
 curl -fsSL https://bun.sh/install | bash
