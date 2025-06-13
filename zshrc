@@ -46,6 +46,7 @@ esac
 . "$HOME/.local/bin/env"
 
 # Alias
+alias tree='eza --tree --icons'
 alias ll='eza -l --icons'
 alias la='eza -la --icons'
 alias gs='git status'
@@ -55,3 +56,4 @@ alias ..='z ..'
 alias ...='z ../..'
 alias cat='bat'
 alias gwt='git worktree'
+alias nv='nvim'
