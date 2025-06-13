@@ -25,7 +25,6 @@ chmod +x install_zsh_env.sh
   - `zsh-completions` - 追加の補完定義
   - `fzf-tab` - fzfを使用したタブ補完
 - **エイリアス**:
-  - `ls` → `eza --icons` (アイコン付きファイルリスト)
   - `ll` → `eza -l --icons` (詳細表示)
   - `la` → `eza -la --icons` (隠しファイルも表示)
   - `tree` → `eza --tree --icons` (ツリー表示)
