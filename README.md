@@ -75,7 +75,7 @@ chmod +x install_zsh_env.sh
 - **`lsp.lua`** - Language Server Protocol設定
   - 自動補完、定義ジャンプ、リファクタリング
 - **`cmp.lua`** - 自動補完エンジン
-- **`nvim-tree.lua`** - ファイルエクスプローラー
+- **`neo-tree.lua`** - ファイルエクスプローラー
 - **`ui.lua`** - UI拡張
   - ステータスライン (lualine)
   - インデントガイド
@@ -155,11 +155,11 @@ chmod +x install_zsh_env.sh
 - `<leader>fb` - バッファ一覧
 - `<leader>fh` - ヘルプタグ検索
 
-#### ファイルエクスプローラー (NvimTree)
+#### ファイルエクスプローラー (Neo-tree)
 - `<leader>ee` - ファイルツリーをトグル
 - `<leader>ef` - 現在のファイルを表示
-- `<leader>ec` - ツリーを閉じる
-- `<leader>er` - ツリーをリフレッシュ
+- `<leader>eg` - Gitステータスを表示
+- `<leader>eb` - バッファエクスプローラーをトグル
 
 #### LSP機能
 - `gR` - 参照を表示
