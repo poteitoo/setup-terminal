@@ -3,7 +3,7 @@
 set -e
 
 echo "🔧 Homebrew パッケージのインストール"
-brew install zsh zinit fzf zoxide bat eza fd ripgrep gh font-hack-nerd-font
+brew install zsh zinit fzf zoxide bat eza fd ripgrep gh font-hack-nerd-font neovim
 brew install --cask wezterm
 
 echo "💡 FZFセットアップ"
