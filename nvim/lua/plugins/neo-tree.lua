@@ -210,5 +210,12 @@ return {
     keymap.set("n", "<leader>ef", "<cmd>Neotree reveal<CR>", { desc = "Reveal current file in explorer" })
     keymap.set("n", "<leader>eg", "<cmd>Neotree float git_status<CR>", { desc = "Show git status" })
     keymap.set("n", "<leader>eb", "<cmd>Neotree toggle show buffers right<CR>", { desc = "Toggle buffer explorer" })
+
+    -- Auto open Neo-tree on startup
+    vim.api.nvim_create_autocmd("VimEnter", {
+      callback = function()
+        vim.cmd("Neotree show")
+      end,
+    })
   end,
 }
