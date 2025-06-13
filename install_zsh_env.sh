@@ -14,8 +14,13 @@ cp ~/.zshrc ~/.zshrc.backup 2>/dev/null || true
 cp ./zshrc ~/.zshrc
 
 echo "🖥️  Wezterm設定ファイルをセットアップ"
-cp ~/.wezterm.lua ~/.zshrc.lua.backup 2>/dev/null || true
+cp ~/.wezterm.lua ~/.wezterm.lua.backup 2>/dev/null || true
 cp ./wezterm.lua ~/.wezterm.lua
+
+echo "📝 Neovim設定をセットアップ"
+mkdir -p ~/.config
+cp -r ~/.config/nvim ~/.config/nvim.backup 2>/dev/null || true
+cp -r ./nvim ~/.config/
 
 echo "🔧 bunのインストール"
 curl -fsSL https://bun.sh/install | bash
