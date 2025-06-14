@@ -6,6 +6,9 @@ echo "🔧 Homebrew パッケージのインストール"
 brew install zsh zinit fzf zoxide bat eza fd ripgrep gh font-hack-nerd-font neovim
 brew install --cask wezterm
 
+echo "🔧 Rustのインストール"
+curl https://sh.rustup.rs -sSf | sh -s -- -y
+
 echo "💡 FZFセットアップ"
 "$(brew --prefix)/opt/fzf/install" --key-bindings --completion --no-update-rc
 
